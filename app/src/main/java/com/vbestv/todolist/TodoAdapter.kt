@@ -30,7 +30,7 @@ class TodoAdapter(private val context: Context, val listener: TodoClickListener)
         when(item.priority){
             1 -> holder.todo_layout.setBackgroundColor(Color.parseColor("#FF0000"))
             2 -> holder.todo_layout.setBackgroundColor(Color.parseColor("#FFA500"))
-            else -> holder.todo_layout.setBackgroundColor(Color.parseColor("#008000"))
+            else -> holder.todo_layout.setBackgroundColor(Color.parseColor("#FFD633"))
         }
 
         holder.todo_layout.setOnClickListener {
