@@ -85,15 +85,16 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="189dp"
-        android:layout_height="141dp"
+        android:layout_width="404dp"
+        android:layout_height="102dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_width="match_parent"
+            android:layout_width="127dp"
             android:layout_height="wrap_content"
             android:background="@color/red"
             android:checked="true"
@@ -101,7 +102,7 @@
 
         <RadioButton
             android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
+            android:layout_width="147dp"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_orange_dark"
             android:text="Обычно" />
